@@ -12,10 +12,10 @@ browser.maximize_window()
 browser.implicitly_wait(10)
 
 username = browser.find_element_by_id('login_username')
-username.send_keys('kross_gg@mail.ru')
+username.send_keys('rv.glotov13@gmail.com')
 
 password = browser.find_element_by_id('login_password')
-password.send_keys('gleb134zaq123')
+password.send_keys('pass134')
 
 password.send_keys(Keys.RETURN)
 time.sleep(4)
